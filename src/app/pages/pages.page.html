@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Treinamentos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+      <!-- <img src="https://www.gstatic.com/webp/gallery/2.webp" /> -->
+      <ion-card-header>
+        <ion-card-subtitle>{{servico.name}}</ion-card-subtitle>
+        <ion-card-title>blalbal</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        {{servico.sumario}}
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-item class="item-content">
+          <ion-button fill="outline" [routerLink]="['../../../pedido']"  slot="end">COMPRA</ion-button>
+        </ion-item>
+      </ion-card>
+
+     
+
+  </ion-content>
